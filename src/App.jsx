@@ -1,11 +1,13 @@
+import Header from './components/Header.jsx';
+import Meme from "./components/Meme";
 
 function App() {
-
-  return (
-    <>
-     
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <Meme />
+        </>
+    );
 }
 
-export default App
+export default App;
